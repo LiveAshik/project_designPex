@@ -1,0 +1,37 @@
+@media (max-width:1200px) {}
+
+@media (max-width:992px) {
+    .hand-write {
+        background-size: cover;
+    }
+
+    .hand-write-2 {
+        background-size: cover;
+    }
+    .imp{
+        color: #fff;
+    }
+}
+
+@media (max-width:768px) {
+    .hand-write {
+        background-size: cover;
+    }
+
+    .hand-write-2 {
+        background-size: cover;
+    }
+}
+
+@media (max-width:576px) {
+    .hero-text-box {
+        width: 100%;
+    }
+    .hand-write {
+        background-size: cover;
+    }
+
+    .hand-write-2 {
+        background-size: cover;
+    }
+}

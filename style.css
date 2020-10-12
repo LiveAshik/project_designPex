@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  line-height: 1.8;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* Navbar */
+.main-content {
+  background-image: url("img/main-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.brand-text {
+  font-style: italic;
+  font-size: 0.8rem;
+  color: #fff;
+}
+.hero-text-box {
+  margin: 15rem 0 20rem;
+}
+.hero-text {
+  font-size: 2.8rem;
+  font-weight: 100;
+}
+.all-btn {
+  padding: 0.8rem 2.5rem;
+  transition: 0.2s ease;
+}
+.btn-1 {
+  background-color: #8724cd;
+  color: #fff;
+}
+.btn-1:hover {
+  background-color: #9d35e7;
+  color: #fff !important;
+}
+.hero-sm-text {
+  font-size: 0.65rem;
+}
+
+/* main information */
+.main-inf {
+  background-color: #2e3b4e;
+  padding: 5rem 0;
+}
+.main-inf h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.main-inf p {
+  font-size: 0.85rem;
+  color: #fff;
+}
+
+/* wicked & whack */
+.wicked-whack {
+  background-image: url("img/wacked.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 5rem;
+}
+.btn-2 {
+  background-color: #fff;
+  color: #c45369;
+}
+.btn-2:hover {
+  background-color: #fc3a61;
+  color: #fff !important;
+}
+.wicked-whack img {
+  margin-top: -2.5rem;
+}
+
+/* hand-write */
+.hand-write {
+  background-image: url("img/hand-writting.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+/* experience */
+.experience {
+  background-image: linear-gradient(
+      rgba(121, 35, 153, 0.6),
+      rgba(121, 35, 153, 0.6)
+    ),
+    url("img/experience.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 5rem;
+}
+.btn-3 {
+  background-color: #8504b4;
+  color: #fff;
+}
+.btn-3:hover {
+  background-color: #b901fc;
+  color: #fff !important;
+}
+
+/* photography */
+.photography {
+  background-image: url("img/photoraphy.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 18rem 0 5rem;
+}
+.photo-btn {
+  padding: 0.2rem 2rem;
+  font-size: 0.8rem;
+}
+.btn-4 {
+  border: 2px solid #fff;
+  color: #fff;
+}
+.btn-4:hover {
+  background-color: #b901fc;
+  color: #fff !important;
+}
+.person {
+  margin: 2rem 0;
+  font-size: 0.8rem;
+}
+
+/* hand-write-2 */
+.hand-write-2 {
+  background-image: url("img/watch.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+
+/* get-in-touch */
+.get-in-touch {
+  background-color: #e7526b;
+}
+
+/* footer */
+footer {
+  background-color: #2e3b4e;
+}
+footer p {
+  font-size: 0.8rem;
+  color: #fff;
+}
